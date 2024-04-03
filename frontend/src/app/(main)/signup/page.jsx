@@ -7,7 +7,7 @@ const RegistartionForm = () => {
           <div
             className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat"
             style={{
-              backgroundImage: `url()`,
+              backgroundImage: `url(https://airproductionservice.com/wp-content/uploads/2021/05/Login.jpg)`,
             }}
           ></div>
         </div>

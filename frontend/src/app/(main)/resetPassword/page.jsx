@@ -14,7 +14,7 @@ const ResetPassword = () => {
           className="w-full h-auto bg-gray-400 hidden lg:block lg:w-1/2 bg-cover rounded-l-lg"
           style={{
             backgroundImage:
-              'url("https://source.unsplash.com/oWTW-jNGl9I/600x800")'
+              'url("https://www.paragonbank.co.uk/resources/blogimages/1085/password-reset-banner.jpg")'
           }}
         />
         {/* Col */}
@@ -53,7 +53,7 @@ const ResetPassword = () => {
             <div className="text-center">
               <a
                 className="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
-                href="#"
+                href="signup"
               >
                 Create an Account!
               </a>
@@ -61,7 +61,7 @@ const ResetPassword = () => {
             <div className="text-center">
               <a
                 className="inline-block text-sm text-blue-500 align-baseline hover:text-blue-800"
-                href="#"
+                href="/login"
               >
                 Already have an account? Login!
               </a>
