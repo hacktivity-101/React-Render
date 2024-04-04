@@ -15,14 +15,14 @@ const Home = () => {
                   alt="Landwind Logo"
                 />
                 <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                  Landwind
+                  Templating Engine
                 </span>
               </a>
               <div className="flex items-center lg:order-2">
                 <div className="hidden mt-2 mr-4 sm:inline-block">
                   <a
                     className="github-button"
-                    href="https://github.com/themesberg/landwind"
+                    href="https://github.com/hacktivity-101"
                     data-size="large"
                     data-icon="octicon-star"
                     data-show-count="true"
@@ -33,7 +33,7 @@ const Home = () => {
                 </div>
                 {/* <a href="#" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">Log in</a> */}
                 <a
-                  href="https://themesberg.com/product/tailwind-css/landing-page"
+                  href="#"
                   className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 sm:mr-2 lg:mr-0 dark:bg-purple-600 dark:hover:bg-purple-700 focus:outline-none dark:focus:ring-purple-800"
                 >
                   Download
@@ -136,7 +136,7 @@ const Home = () => {
           <div className="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
             <div className="mr-auto place-self-center lg:col-span-7">
               <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
-                Building digital <br />
+                Templating Engine <br />
                 products &amp; brands.
               </h1>
               <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
@@ -174,7 +174,7 @@ const Home = () => {
                   View on GitHub
                 </a>
                 <a
-                  href="https://www.figma.com/community/file/1125744163617429490"
+                  href="#"
                   className="inline-flex items-center justify-center w-full px-5 py-3 mb-2 mr-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-lg sm:w-auto focus:outline-none hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                 >
                   <svg

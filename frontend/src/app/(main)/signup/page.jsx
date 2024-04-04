@@ -1,5 +1,8 @@
 import React from "react";
-const RegistartionForm = () => {
+const Signup = () => {
+
+
+  
   return (
     <div className="h-[100vh] items-center flex justify-center px-5 lg:px-0">
       <div className="max-w-screen-xl bg-white border shadow sm:rounded-lg flex justify-center flex-1">
