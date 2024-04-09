@@ -21,6 +21,16 @@ const menuItems = {
             label: 'Guides',
             link: '/docs/guides'
         }
+    ],
+    'Support': [
+        {
+            label: 'Quick Start',
+            link: '/docs/quick-start'
+        },
+        {
+            label: 'Guides',
+            link: '/docs/guides'
+        }
     ]
 }
 
