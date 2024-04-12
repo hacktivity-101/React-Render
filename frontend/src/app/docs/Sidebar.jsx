@@ -30,6 +30,10 @@ const menuItems = {
         {
             label: 'Guides',
             link: '/docs/guides'
+        },
+        {
+            label: 'About',
+            link: '/docs/about'
         }
     ]
 }

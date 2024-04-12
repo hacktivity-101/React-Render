@@ -26,6 +26,21 @@ const QuickStart = () => {
             />
           </div>
         </section>
+        <section className='mb-10'>
+          <hr className='mt-2 mb-6 border-slate-400' />
+          <p>Use commmand : </p>
+          <div className='py-4'>
+            <CopyBlock
+              text={''}
+              
+              language={'bash'}
+              showLineNumbers={true}
+              theme={dracula}
+              wrapLines
+            />
+            
+          </div>
+        </section>
       </div>
     </div>
   )
