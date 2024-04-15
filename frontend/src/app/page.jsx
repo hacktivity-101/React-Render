@@ -136,12 +136,12 @@ const Home = () => {
           <div className="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
             <div className="mr-auto place-self-center lg:col-span-7">
               <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
-                Templating Engine <br />
-                products &amp; brands.
+                MY ENGINE
               </h1>
               <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-              Development tools that combine static HTML templates with dynamic data to generate final HTML pages or other output formats (e.g., emails, reports).
-  {" "}
+              "Unlock limitless creativity with our advanced templating engine. Effortlessly transform your ideas into stunning web designs. Dive in and revolutionize your digital projects today!"
+
+{" "}
                 <a href="https://tailwindcss.com" className="hover:underline">
                   My-Engine
                 </a>{" "}
@@ -560,7 +560,7 @@ const Home = () => {
                   Easy debugging
                 </h3>
                 <p className="font-light text-gray-500 dark:text-gray-400">
-                  It's easy to debug EJS errors: your errors are plain JavaScript exceptions, with template line-numbers included.
+                  It's easy to debug errors: your errors are plain JavaScript exceptions, with template line-numbers included.
                 </p>
               </div>
             </div>
