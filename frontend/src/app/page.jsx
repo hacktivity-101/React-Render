@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './(main)/navbar'
+
 
 const Home = () => {
   return (
@@ -234,12 +234,12 @@ const Home = () => {
             <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
               <div className="text-gray-500 sm:text-lg dark:text-gray-400">
                 <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-                  Work with tools you already use
+                  What is My Engine?
                 </h2>
                 <p className="mb-8 font-light lg:text-xl">
-                  Deliver great service experiences fast - without the complexity of
-                  traditional ITSM solutions. Accelerate critical development work,
-                  eliminate toil, and deploy changes with ease.
+                  
+                  "Welcome to [My Engine], where creativity meets efficiency in the realm of web development. With our cutting-edge templating engine, we empower you to bring your digital visions to life with unparalleled ease and precision. Say goodbye to tedious coding and hello to seamless customization. Whether you're a seasoned developer or a newcomer to the world of web design, our intuitive platform streamlines the process, enabling you to focus on what truly matters – crafting exceptional user experiences. Join the revolution in templating technology and unlock limitless possibilities for your online projects. Dive in today and discover the power of effortless innovation at your fingertips."         
+                  
                 </p>
                 {/* List */}
                 <ul
@@ -261,7 +261,7 @@ const Home = () => {
                       />
                     </svg>
                     <span className="text-base font-medium leading-tight text-gray-900 dark:text-white">
-                      Continuous integration and deployment
+                     Continous integration and development
                     </span>
                   </li>
                   <li className="flex space-x-3">
@@ -438,10 +438,10 @@ const Home = () => {
           <div className="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
             <div className="col-span-2 mb-8">
               <p className="text-lg font-medium text-purple-600 dark:text-purple-500">
-                ABC
+                Trusted Worldwide
               </p>
               <h2 className="mt-3 mb-4 text-3xl font-extrabold tracking-tight text-gray-900 md:text-3xl dark:text-white">
-                Abcd
+                Trusted by over 600 million users and 10,000 teams
               </h2>
               <p className="font-light text-gray-500 sm:text-xl dark:text-gray-400">
                 Our rigorous security and compliance standards are at the heart of all
@@ -505,10 +505,10 @@ const Home = () => {
                   />
                 </svg>
                 <h3 className="mb-2 text-2xl font-bold dark:text-white">
-                Fast development time
+                  Use plain JavaScript
                 </h3>
                 <p className="font-light text-gray-500 dark:text-gray-400">
-                Don't waste time and attention figuring out arcane new syntax because 'elegance' — or how to preprocess your data so it will actually render right.
+                  We love JavaScript. It's a totally friendly language. All templating languages grow to be Turing-complete. Just cut out the middle-man, and use JS!
                 </p>
               </div>
               <div>
@@ -521,17 +521,17 @@ const Home = () => {
                   <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z" />
                 </svg>
                 <h3 className="mb-2 text-2xl font-bold dark:text-white">
-                Simple syntax
+                  Fast development time
                 </h3>
                 <p className="font-light text-gray-500 dark:text-gray-400">
-                JavaScript code in simple, straightforward scriptlet tags. Just write HTML that emits the JavaScript you want, and get the job done!
-                </p>
+                  Don't waste time and attention figuring out arcane new syntax because 'elegance' — or how to preprocess your data so it will actually render right.                </p>
               </div>
               <div>
                 <svg
                   className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
                   fill="currentColor"
                   viewBox="0 0 20 20"
+
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
@@ -541,10 +541,10 @@ const Home = () => {
                   />
                 </svg>
                 <h3 className="mb-2 text-2xl font-bold dark:text-white">
-                Easy debugging
+                  Simple syntax
                 </h3>
                 <p className="font-light text-gray-500 dark:text-gray-400">
-                It's easy to debug My-Engine errors: your errors are plain JavaScript exceptions, with template line-numbers included.
+                  JavaScript code in simple, straightforward scriptlet tags. Just write JavaScript that emits the HTML you want, and get the job done!
                 </p>
               </div>
               <div>
@@ -557,10 +557,10 @@ const Home = () => {
                   <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
                 </svg>
                 <h3 className="mb-2 text-2xl font-bold dark:text-white">
-                Active development
+                  Easy debugging
                 </h3>
                 <p className="font-light text-gray-500 dark:text-gray-400">
-                My-Engine has a active users, and the library is under active development. We're happy to answer your questions or give you help.
+                  It's easy to debug EJS errors: your errors are plain JavaScript exceptions, with template line-numbers included.
                 </p>
               </div>
             </div>
