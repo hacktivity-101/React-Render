@@ -1,8 +1,9 @@
 import React from 'react'
 
-const Evaluate = () => {
+const Evaluate = ({ expression }) => {
+
   return (
-    <div>Evaluate</div>
+    <>{eval(expression)}</>
   )
 }
 
