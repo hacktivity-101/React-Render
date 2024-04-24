@@ -1,9 +1,21 @@
-import React from 'react'
+import React from 'react';
 
-const custom_attributes = () => {
-  return (
-    <div>custom_attributes</div>
-  )
-}
+const ExpressionTab = () => {
+    const customAttribute = "data-custom";
 
-export default custom_attributes
+    return (
+        <div className="expression-tab">
+            <div className="tab-layout">
+                <ul className="tabs">
+                    <li className="tab active">Expression</li>
+                </ul>
+                <div className="tab-content">
+                    {/* Adding a custom attribute */}
+                    <input type="text" placeholder="Enter expression" {...{[customAttribute]: "custom-value"}} />
+                </div>
+            </div>
+        </div>
+    );
+};
+
+export default ExpressionTab;
