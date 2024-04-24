@@ -10,7 +10,7 @@ const Home = () => {
             <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
               <a href="#" className="flex items-center">
                 <img
-                  src="/images/logo.svg"
+                  src="/images/hero.webp"
                   className="h-6 mr-3 sm:h-9"
                   alt="Landwind Logo"
                 />
@@ -221,7 +221,7 @@ const Home = () => {
               </div>
             </div>
             <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-              <img src="/images/hero.png" alt="hero image" />
+              <img src="/images/hero.webp" alt="hero image" />
             </div>
           </div>
         </section>
