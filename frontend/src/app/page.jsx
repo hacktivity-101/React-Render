@@ -10,7 +10,7 @@ const Home = () => {
             <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
               <a href="#" className="flex items-center">
                 <img
-                  src="/images/logo.svg"
+                  src="/images/hero.webp"
                   className="h-6 mr-3 sm:h-9"
                   alt="Landwind Logo"
                 />
@@ -221,7 +221,7 @@ const Home = () => {
               </div>
             </div>
             <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-              <img src="/images/hero.png" alt="hero image" />
+              <img src="/images/hero.webp" alt="hero image" />
             </div>
           </div>
         </section>
@@ -238,8 +238,7 @@ const Home = () => {
                 </h2>
                 <p className="mb-8 font-light lg:text-xl">
                   
-                  "Welcome to [My Engine], where creativity meets efficiency in the realm of web development. With our cutting-edge templating engine, we empower you to bring your digital visions to life with unparalleled ease and precision. Say goodbye to tedious coding and hello to seamless customization. Whether you're a seasoned developer or a newcomer to the world of web design, our intuitive platform streamlines the process, enabling you to focus on what truly matters – crafting exceptional user experiences. Join the revolution in templating technology and unlock limitless possibilities for your online projects. Dive in today and discover the power of effortless innovation at your fingertips."         
-                  
+                "Welcome to [My Engine], where creativity meets efficiency in web development. With our cutting-edge templating engine, bring your digital visions to life effortlessly. Say goodbye to tedious coding and hello to seamless customization. Whether you're a seasoned developer or newcomer, our intuitive platform streamlines the process, focusing on crafting exceptional user experiences. Join the revolution in templating technology today."                  
                 </p>
                 {/* List */}
                 <ul
