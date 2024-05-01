@@ -1,15 +1,27 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <condition check="10<5" if-value="ok" else-value="no ok"></condition>
-    
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <!-- <condition check="10<5" if-value="ok" else-value="no ok"></condition> -->
+
+  <!-- <loop iterator="[1, 2, 3, 4, 5, 6]">
+    <h1>Some Content</h1>
+  </loop> -->
+
+  <h2>
+    <number-filter value="123456789" type="currency" ></number-filter>
+  </h2>
+
+
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>

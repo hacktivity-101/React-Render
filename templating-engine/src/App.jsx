@@ -4,7 +4,7 @@ import Condition from './expressions/Condition'
 const App = () => {
   return (
     <div>
-      <Condition conditionValue={10<5} ifValue={'Yes'} elseValue={'No'} />
+      {/* <Condition conditionValue={10<5} ifValue={'Yes'} elseValue={'No'} /> */}
     </div>
   )
 }

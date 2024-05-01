@@ -12,4 +12,4 @@ const constants = ({ constants }) => {
     </div>)
 }
 
-export default constants
+export default constants;
