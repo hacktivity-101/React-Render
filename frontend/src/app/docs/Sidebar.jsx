@@ -44,10 +44,10 @@ const Sidebar = () => {
 
     return (
         <aside className="flex flex-col w-64 h-screen px-5 py-8 overflow-y-auto bg-white border-r rtl:border-r-0 rtl:border-l dark:bg-gray-900 dark:border-gray-700">
-            <a href="#">
+            <a href="/">
                 <img
                     className="w-auto h-7"
-                    src="https://merakiui.com/images/logo.svg"
+                    src="https://cdn3d.iconscout.com/3d/premium/thumb/web-development-5617617-4674328.png"
                     alt=""
                 />
             </a>
