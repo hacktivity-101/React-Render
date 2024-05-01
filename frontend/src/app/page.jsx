@@ -112,18 +112,18 @@ const Home = () => {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/docs/quick-start"
                       className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                     >
-                      Team
+                      Docs
                     </a>
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="/Feedback"
                       className="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                     >
-                      Contact
+                      Feedback
                     </a>
                   </li>
                 </ul>
@@ -142,12 +142,12 @@ const Home = () => {
               "Unlock limitless creativity with our advanced templating engine. Effortlessly transform your ideas into stunning web designs. Dive in and revolutionize your digital projects today!"
 
 {" "}
-                <a href="https://tailwindcss.com" className="hover:underline">
+                <a href="#" className="hover:underline">
                   My-Engine
                 </a>{" "}
                 based on the {" "}
                 <a
-                  href="https://flowbite.com/docs/getting-started/introduction/"
+                  href="#"
                   className="hover:underline"
                 >
                   React
