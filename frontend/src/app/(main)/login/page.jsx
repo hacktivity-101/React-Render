@@ -11,7 +11,7 @@ const Login = () => {
     >
       <img
         className="w-8 h-8 mr-2"
-        src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg"
+        src="https://cdn3d.iconscout.com/3d/premium/thumb/web-development-5617617-4674328.png?f=webp"
         alt="logo"
       />
       Templating Engine
