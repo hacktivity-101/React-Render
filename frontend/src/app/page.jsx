@@ -307,7 +307,7 @@ const Home = () => {
               </div>
               <img
                 className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-                src="/images/feature-1.png"
+                src="/images/abc.png"
                 alt="dashboard feature image"
               />
             </div>
@@ -315,7 +315,7 @@ const Home = () => {
             <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
               <img
                 className="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-                src="/images/feature-2.png"
+                src="/images/xyz.png"
                 alt="feature image 2"
               />
               <div className="text-gray-500 sm:text-lg dark:text-gray-400">

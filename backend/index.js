@@ -5,7 +5,8 @@ const cors = require('cors');
 // initialize
 const app = express();
 
-const postRouter = require('./routers/postRouter');
+const userRouter = require('./routers/userRouter');
+const feedbackRouter = require('./routers/FeedbackRouter');
 
 // middleware
 app.use(cors({
@@ -15,7 +16,8 @@ app.use(cors({
 // convert json to js
 app.use(express.json());
 
-app.use('/post', postRouter);
+app.use('/user', userRouter);
+app.use('/feedback', feedbackRouter);
 
 const port = 5000;
 
@@ -29,4 +31,4 @@ app.get('/add', (req, res) => {
     res.send('add response from express');
 });
 
-app.listen( port, () => { console.log('express server started')} );
+app.listen(port, () => { console.log('express server started') });
