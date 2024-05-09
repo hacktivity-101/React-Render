@@ -434,12 +434,13 @@ const Home = () => {
         {/* End block */}
         {/* Start block */}
         <section className="bg-white dark:bg-gray-900">
-          <div className="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid lg:grid-cols-4 lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
+          <div className="items-center max-w-screen-xl px-4 py-8 mx-auto lg:grid  lg:gap-16 xl:gap-24 lg:py-24 lg:px-6">
             <div className="col-span-2 mb-8">
               
             </div>
+          
             <div className="col-span-2 space-y-8 md:grid md:grid-cols-2 md:gap-12 md:space-y-0">
-              <div>
+              <div >
                 <svg
                   className="w-10 h-10 mb-2 text-purple-600 md:w-12 md:h-12 dark:text-purple-500"
                   fill="currentColor"
@@ -512,6 +513,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
+           
           </div>
         </section>
         {/* End block */}
