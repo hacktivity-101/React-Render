@@ -302,7 +302,7 @@ const Home = () => {
                 </ul>
                 <p className="mb-8 font-light lg:text-xl">
                   Deliver great service experiences fast - without the complexity of
-                  traditional ITSM solutions.
+                  traditional solutions.
                 </p>
               </div>
               <img
@@ -324,7 +324,7 @@ const Home = () => {
                 </h2>
                 <p className="mb-8 font-light lg:text-xl">
                   Deliver great service experiences fast - without the complexity of
-                  traditional ITSM solutions. Accelerate critical development work,
+                  traditional solutions. Accelerate critical development work,
                   eliminate toil, and deploy changes with ease.
                 </p>
                 {/* List */}
@@ -425,7 +425,7 @@ const Home = () => {
                 </ul>
                 <p className="font-light lg:text-xl">
                   Deliver great service experiences fast - without the complexity of
-                  traditional ITSM solutions.
+                  traditional solutions.
                 </p>
               </div>
             </div>
@@ -905,7 +905,7 @@ const Home = () => {
                 className="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 dark:text-white"
               >
                 <img
-                  src="./images/logo.svg"
+                  src="./images/hero.webp"
                   className="h-6 mr-3 sm:h-9"
                   alt="Landwind Logo"
                 />
