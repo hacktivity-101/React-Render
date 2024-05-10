@@ -15,7 +15,7 @@ const Home = () => {
                   alt="Landwind Logo"
                 />
                 <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-                  Templating Engine
+                React-Render
                 </span>
               </a>
               <div className="flex items-center lg:order-2">
@@ -136,14 +136,14 @@ const Home = () => {
           <div className="grid max-w-screen-xl px-4 pt-20 pb-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 lg:pt-28">
             <div className="mr-auto place-self-center lg:col-span-7">
               <h1 className="max-w-2xl mb-4 text-4xl font-extrabold leading-none tracking-tight md:text-5xl xl:text-6xl dark:text-white">
-                MY ENGINE
+              React-Render
               </h1>
               <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
               "Unlock limitless creativity with our advanced templating engine. Effortlessly transform your ideas into stunning web designs. Dive in and revolutionize your digital projects today!"
 
 {" "}
                 <a href="#" className="hover:underline">
-                  My-Engine
+                React-Render
                 </a>{" "}
                 based on the {" "}
                 <a
@@ -234,11 +234,11 @@ const Home = () => {
             <div className="items-center gap-8 lg:grid lg:grid-cols-2 xl:gap-16">
               <div className="text-gray-500 sm:text-lg dark:text-gray-400">
                 <h2 className="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white">
-                  What is My Engine?
+                  What is React-Render?
                 </h2>
                 <p className="mb-8 font-light lg:text-xl">
                   
-                "Welcome to [My Engine], where creativity meets efficiency in web development. With our cutting-edge templating engine, bring your digital visions to life effortlessly. Say goodbye to tedious coding and hello to seamless customization. Whether you're a seasoned developer or newcomer, our intuitive platform streamlines the process, focusing on crafting exceptional user experiences. Join the revolution in templating technology today."                  
+                "Welcome to React-Render, where creativity meets efficiency in web development. With our cutting-edge templating engine, bring your digital visions to life effortlessly. Say goodbye to tedious coding and hello to seamless customization. Whether you're a seasoned developer or newcomer, our intuitive platform streamlines the process, focusing on crafting exceptional user experiences. Join the revolution in templating technology today."                  
                 </p>
                 {/* List */}
                 <ul
@@ -456,7 +456,7 @@ const Home = () => {
                 Active development
                 </h3>
                 <p className="font-light text-gray-500 dark:text-gray-400">
-                My-Engine has an active users, and the library is under active development. We're happy to answer your questions or give you help.
+                React-Render has an active users, and the library is under active development. We're happy to answer your questions or give you help.
                 </p>
               </div>
               <div>
@@ -909,16 +909,17 @@ const Home = () => {
                   className="h-6 mr-3 sm:h-9"
                   alt="Landwind Logo"
                 />
-                My-Engine
+                React-Render
+            
               </a>
               <span className="block text-sm text-center text-gray-500 dark:text-gray-400">
-                © 2021-2022 My-Engine™. All Rights Reserved. Built with{" "}
+                © 2023-2024 React-Render™. All Rights Reserved. Built with{" "}
         
                 <a
                   href="#"
                   className="text-purple-600 hover:underline dark:text-purple-500"
                 >
-                  My-Engine
+                  React-Render
                 </a>
                 .
               </span>
