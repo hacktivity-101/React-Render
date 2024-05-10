@@ -12,14 +12,30 @@ const menuItems = {
             link: '/docs/guides'
         },
     ],
-    'Language Reference': [
+    'Elements': [
         {
-            label: 'Quick Start',
-            link: '/docs/quick-start'
+            label: 'Conditional Expressions',
+            link: '/docs/elements/conditional-expression'
         },
         {
-            label: 'Guides',
-            link: '/docs/guides'
+            label: 'Conditional Expressions',
+            link: '/docs/elements/conditional-expression'
+        },
+        {
+            label: 'Conditional Expressions',
+            link: '/docs/elements/conditional-expression'
+        },
+        {
+            label: 'Conditional Expressions',
+            link: '/docs/elements/conditional-expression'
+        },
+        {
+            label: 'Conditional Expressions',
+            link: '/docs/elements/conditional-expression'
+        },
+        {
+            label: 'Conditional Expressions',
+            link: '/docs/elements/conditional-expression'
         }
     ],
     'Support': [
