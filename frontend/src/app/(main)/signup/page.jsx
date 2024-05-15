@@ -5,75 +5,119 @@ const Signup = () => {
 
   
   return (
-    <div className="h-[100vh] items-center flex justify-center px-5 lg:px-0">
-      <div className="max-w-screen-xl bg-white border shadow sm:rounded-lg flex justify-center flex-1">
-        <div className="flex-1 bg-blue-00 text-center hidden md:flex">
-          <div
-            className="m-12 xl:m-16 w-full bg-contain bg-center bg-no-repeat"
-            style={{
-              backgroundImage: `url(https://airproductionservice.com/wp-content/uploads/2021/05/Login.jpg)`,
-            }}
-          ></div>
-        </div>
-        <div className="lg:w-1/2 xl:w-5/12 p-6 sm:p-12">
-          <div className=" flex flex-col items-center">
-            <div className="text-center">
-              <h1 className="text-2xl xl:text-4xl font-extrabold text-blue-900">
-                Sign up
-              </h1>
-              <p className="text-[12px] text-gray-500">
-                Hey enter your details to create your account
-              </p>
+    <section className="bg-gray-50 dark:bg-gray-900">
+  <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+    <a
+      href="#"
+      className="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white"
+    >
+      <img
+        className="w-8 h-8 mr-2"
+        src="https://cdn3d.iconscout.com/3d/premium/thumb/web-development-5617617-4674328.png?f=webp"
+        alt="logo"
+      />
+      React-Render
+    </a>
+    <div className="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+      <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
+        <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+          Create an account
+        </h1>
+        <form className="space-y-4 md:space-y-6" action="#">
+          <div>
+            <label
+              htmlFor="email"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              Your email
+            </label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="name@company.com"
+              required=""
+            />
+          </div>
+          <div>
+            <label
+              htmlFor="password"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              Password
+            </label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="••••••••"
+              className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required=""
+            />
+          </div>
+          <div>
+            <label
+              htmlFor="confirm-password"
+              className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
+            >
+              Confirm password
+            </label>
+            <input
+              type="confirm-password"
+              name="confirm-password"
+              id="confirm-password"
+              placeholder="••••••••"
+              className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              required=""
+            />
+          </div>
+          <div className="flex items-start">
+            <div className="flex items-center h-5">
+              <input
+                id="terms"
+                aria-describedby="terms"
+                type="checkbox"
+                className="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800"
+                required=""
+              />
             </div>
-            <div className="w-full flex-1 mt-8">
-              <div className="mx-auto max-w-xs flex flex-col gap-4">
-                <input
-                  className="w-full px-5 py-3 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-gray-400 focus:bg-white"
-                  type="text"
-                  placeholder="Enter your name"
-                />
-                <input
-                  className="w-full px-5 py-3 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-gray-400 focus:bg-white"
-                  type="email"
-                  placeholder="Enter your email"
-                />
-                <input
-                  className="w-full px-5 py-3 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-gray-400 focus:bg-white"
-                  type="tel"
-                  placeholder="Enter your phone"
-                />
-                <input
-                  className="w-full px-5 py-3 rounded-lg font-medium bg-gray-100 border border-gray-200 placeholder-gray-500 text-sm focus:outline-none focus:border-gray-400 focus:bg-white"
-                  type="password"
-                  placeholder="Password"
-                />
-                <button className="mt-5 tracking-wide font-semibold bg-blue-900 text-gray-100 w-full py-4 rounded-lg hover:bg-indigo-700 transition-all duration-300 ease-in-out flex items-center justify-center focus:shadow-outline focus:outline-none">
-                  <svg
-                    className="w-6 h-6 -ml-2"
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-width="2"
-                    strokeLinecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
-                    <circle cx="8.5" cy="7" r="4" />
-                    <path d="M20 8v6M23 11h-6" />
-                  </svg>
-                  <span className="ml-3">Sign Up</span>
-                </button>
-                <p className="mt-6 text-xs text-gray-600 text-center">
-                  Already have an account?{" "}
-                  <a href="/login">
-                    <span className="text-blue-900 font-semibold">Sign in</span>
-                  </a>
-                </p>
-              </div>
+            <div className="ml-3 text-sm">
+              <label
+                htmlFor="terms"
+                className="font-light text-gray-500 dark:text-gray-300"
+              >
+                I accept the{" "}
+                <a
+                  className="font-medium text-primary-600 hover:underline dark:text-primary-500"
+                  href="#"
+                >
+                  Terms and Conditions
+                </a>
+              </label>
             </div>
           </div>
-        </div>
+          <button
+            type="submit"
+            className="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
+          >
+            Create an account
+          </button>
+          <p className="text-sm font-light text-gray-500 dark:text-gray-400">
+            Already have an account?{" "}
+            <a
+              href="/login"
+              className="font-medium text-primary-600 hover:underline dark:text-primary-500"
+            >
+              Login here
+            </a>
+          </p>
+        </form>
       </div>
     </div>
+  </div>
+</section>
+
   );
 };
 export default Signup;
