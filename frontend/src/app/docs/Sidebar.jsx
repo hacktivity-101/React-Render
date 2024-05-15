@@ -18,25 +18,41 @@ const menuItems = {
             link: '/docs/elements/conditional-expression'
         },
         {
-            label: 'Conditional Expressions',
+            label: 'Date Filters',
             link: '/docs/elements/conditional-expression'
         },
         {
-            label: 'Conditional Expressions',
+            label: 'Number Filters',
             link: '/docs/elements/conditional-expression'
         },
         {
-            label: 'Conditional Expressions',
+            label: 'Custom Attributes',
             link: '/docs/elements/conditional-expression'
         },
         {
-            label: 'Conditional Expressions',
+            label: 'Data Context',
             link: '/docs/elements/conditional-expression'
         },
         {
-            label: 'Conditional Expressions',
+            label: 'Evaluate Expression',
             link: '/docs/elements/conditional-expression'
-        }
+        },
+        {
+            label: 'Inheritance',
+            link: '/docs/elements/conditional-expression'
+        },
+        {
+            label: 'Layout',
+            link: '/docs/elements/conditional-expression'
+        },
+        {
+            label: 'Loop',
+            link: '/docs/elements/conditional-expression'
+        },
+        {
+            label: 'RawOutput',
+            link: '/docs/elements/conditional-expression'
+        },
     ],
     'Support': [
         {

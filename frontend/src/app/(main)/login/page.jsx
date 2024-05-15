@@ -1,6 +1,36 @@
+'use client';
+import { useFormik } from 'formik';
 import React from 'react';
 
 const Login = () => {
+
+  const loginForm = useFormik({
+    initialValues:{
+     
+      email:'',
+      password:"",
+      
+    },
+
+    onSubmit : async(values) => {
+      console.log(values);
+      const res = await fetch("http://localhost:5000/user/authenticate", {
+        method:"POST",
+        body:JSON.stringify(values),
+        headers:{
+          "Content-Type" : "application/json"
+        }
+      })
+      console.log(res.status);
+        if(res.status === 200) {
+          enqueueSnackbar("user loggedin successfully", {variant:'success'})
+          router.push("/")
+        }else{
+          enqueueSnackbar("something went wrong", {variant:'error'})
+        }
+    }
+  })
+
   return (
     
       <section className="bg-gray-50 dark:bg-gray-900">
@@ -21,7 +51,7 @@ const Login = () => {
         <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
           Sign in to your account
         </h1>
-        <form className="space-y-4 md:space-y-6" action="#">
+        <form className="space-y-4 md:space-y-6" action="#" onSubmit={loginForm.handleSubmit}>
           <div>
             <label
               htmlFor="email"
@@ -31,8 +61,11 @@ const Login = () => {
             </label>
             <input
               type="email"
-              name="email"
+            
               id="email"
+              value={loginForm.values.email}
+              onChange={loginForm.handleChange}
+
               className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="name@company.com"
               required=""
@@ -47,8 +80,10 @@ const Login = () => {
             </label>
             <input
               type="password"
-              name="password"
+             
               id="password"
+              value={loginForm.values.password}
+              onChange={loginForm.handleChange}
               placeholder="••••••••"
               className="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               required=""
@@ -85,7 +120,7 @@ const Login = () => {
             type="submit"
             className="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800"
           >
-            Sign in
+           Login
           </button>
           <p className="text-sm font-light text-gray-500 dark:text-gray-400">
             Don’t have an account yet?{" "}
