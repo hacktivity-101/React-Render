@@ -3,15 +3,14 @@ import React from 'react';
 const Layout = ({ children }) => {
   return (
     <div>
-      {/* Add your layout components here */}
       <header>
-        {/* Header content */}
+        {/* Add your header content here */}
       </header>
       <main>
         {children}
       </main>
       <footer>
-        {/* Footer content */}
+        {/* Add your footer content here */}
       </footer>
     </div>
   );

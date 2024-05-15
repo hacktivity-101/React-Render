@@ -1,11 +1,18 @@
-import React from 'react'
+import React from 'react';
+import moment from 'moment';
 
-const NumberFilters = ({ value, filterName }) => {
-  const formatCurrency = (value, currencyCode) => {
-    return new Intl.NumberFormat('en-US', { style: 'currency', currency: currencyCode }).format(value);
-  }
+const DateDisplay = ({ date, format }) => {
+  const formattedDate = formatDate(date, format);
 
-  return formatCurrency(value, filterName)
-}
+  return <div>{formattedDate}</div>;
+};
 
-export default NumberFilters;
+const formatDate = (date, format) => {
+  // Implement your date formatting logic here
+  // You can use libraries like moment.js or date-fns for formatting
+  const formattedDate = moment(date).format(format); // Example: using moment.js library
+
+  return formattedDate;
+};
+
+export default DateDisplay;
