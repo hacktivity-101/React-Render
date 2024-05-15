@@ -4,6 +4,7 @@ import App from './App.jsx'
 import './index.css'
 import Condition from './expressions/Condition.jsx';
 import NumberFilters from './expressions/NumberFilters.jsx';
+import MyForm from './expressions/Form.jsx';
 
 // ReactDOM.createRoot(document.getElementById('root')).render(
 //   <React.StrictMode>
@@ -33,4 +34,17 @@ if (numberElement.length) {
     ReactDOM.createRoot(ele).render(
         <NumberFilters value={value} filterName={filterName} />
     )
+}
+
+const formElement = document.getElementsByTagName('custom-form');
+if(formElement.length){
+  const ele = formElement[0];
+  const fieldNames = eval(ele.getAttribute('fields'));
+//   console.log(eval(fieldNames));
+  const method = ele.getAttribute('method');
+  const action = ele.getAttribute('action');
+
+  ReactDOM.createRoot(ele).render(
+    <MyForm fieldNames={fieldNames} method={method} action={action} />
+  )
 }
