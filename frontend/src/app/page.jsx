@@ -12,7 +12,7 @@ const Home = () => {
                 <img
                   src="/images/hero.webp"
                   className="h-6 mr-3 sm:h-9"
-                  alt="Landwind Logo"
+                  alt="React-Render Logo"
                 />
                 <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
                 React-Render
