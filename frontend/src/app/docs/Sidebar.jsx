@@ -19,50 +19,63 @@ const menuItems = {
         },
         {
             label: 'Date Filters',
-            link: '/docs/elements/conditional-expression'
+            link: '/docs/elements/date-filter'
         },
         {
             label: 'Number Filters',
-            link: '/docs/elements/conditional-expression'
+            link: '/docs/elements/number-filter'
         },
         {
             label: 'Custom Attributes',
-            link: '/docs/elements/conditional-expression'
+            link: '/docs/elements/custom-attributes'
         },
         {
             label: 'Data Context',
-            link: '/docs/elements/conditional-expression'
+            link: '/docs/elements/data-context'
         },
         {
             label: 'Evaluate Expression',
-            link: '/docs/elements/conditional-expression'
+            link: '/docs/elements/evaluate-expression'
         },
         {
             label: 'Inheritance',
-            link: '/docs/elements/conditional-expression'
+            link: '/docs/elements/inheritance'
         },
         {
             label: 'Layout',
-            link: '/docs/elements/conditional-expression'
+            link: '/docs/elements/layout-expression'
         },
         {
             label: 'Loop',
-            link: '/docs/elements/conditional-expression'
+            link: '/docs/elements/loops'
         },
         {
             label: 'RawOutput',
-            link: '/docs/elements/conditional-expression'
+            link: '/docs/elements/row-output'
+        },
+        {
+            label: 'Alert',
+            link: '/docs/elements/alert'
+        },
+        {
+            label: 'Comment',
+            link: '/docs/elements/comment'
+        },
+        {
+            label: 'Form',
+            link: '/docs/elements/form'
+        },
+        {
+            label: 'String',
+            link: '/docs/elements/string'
         },
     ],
     'Support': [
         {
-            label: 'Quick Start',
-            link: '/docs/quick-start'
+            label: 'Feedback',
+            link: '#'
         },
-        {
-            label: 'Guides',
-            link: '/docs/guides'
-        },
+        
         {
             label: 'About',
             link: '/docs/about'

@@ -2,7 +2,7 @@
 import React from 'react'
 import { CopyBlock, dracula } from 'react-code-blocks';
 
-const date-filter = () => {
+const DateFilter = () => {
     return (
         <div>
             <div className='container py-10 px-40'>
@@ -38,4 +38,4 @@ const date-filter = () => {
     )
 }
 
-export default date-filter;
+export default DateFilter;

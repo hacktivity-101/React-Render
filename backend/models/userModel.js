@@ -8,4 +8,4 @@ const mySchema = new Schema({
     role: { type: String, default: 'user' },
     createdAt: { type: Date, default: Date.now }
 })
-model.exports = model('user', mySchema);
+module.exports = model('user', mySchema);

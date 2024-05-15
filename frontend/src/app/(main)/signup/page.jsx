@@ -2,7 +2,6 @@
 import { useFormik } from "formik";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-
 import { enqueueSnackbar } from "notistack";
 import React from "react";
 
@@ -133,7 +132,7 @@ const Signup = () => {
               <div className="flex items-start">
 
                 <div className="ml-3 text-sm">
-                  
+
                 </div>
               </div>
               <button type="submit" className=" w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">SignUp</button>

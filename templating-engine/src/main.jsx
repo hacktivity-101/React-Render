@@ -13,17 +13,17 @@ import MyForm from './expressions/Form.jsx';
 // )
 
 
-// const conditionElement = document.getElementsByTagName('condition');
-// if(conditionElement.length){
-//   const ele = conditionElement[0];
-//   const check = ele.getAttribute('check');
-//   const ifValue = ele.getAttribute('if-value');
-//   const elseValue = ele.getAttribute('else-value');
+const conditionElement = document.getElementsByTagName('condition');
+if(conditionElement.length){
+  const ele = conditionElement[0];
+  const check = ele.getAttribute('check');
+  const ifValue = ele.getAttribute('if-value');
+  const elseValue = ele.getAttribute('else-value');
 
-//   ReactDOM.createRoot(ele).render(
-//     <Condition conditionValue={eval(check)} ifValue={ifValue} elseValue={elseValue} />
-//   )
-// }
+  ReactDOM.createRoot(ele).render(
+    <Condition conditionValue={eval(check)} ifValue={ifValue} elseValue={elseValue} />
+  )
+}
 
 const numberElement = document.getElementsByTagName('number-filter');
 if (numberElement.length) {
