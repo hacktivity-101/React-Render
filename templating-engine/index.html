@@ -10,18 +10,22 @@
 
 <body>
   <div id="root"></div>
-  <condition check="10<5" if-value="ok" else-value="no ok"></condition>
+  <!-- <condition check="10<5" if-value="ok" else-value="no ok"></condition> -->
 
-  <!-- <loop iterator="[1, 2, 3, 4, 5, 6]">
+  <loop iterator="[1, 2, 3, 4, 5, 6]">
     <h1>Some Content</h1>
-  </loop> -->
+  </loop>
 
   <h2>
-    <!-- <number-filter value="123456789" type="currency" filter-name="USD" ></number-filter> -->
-    <!-- <date-filter value="" type="currency" ></date-filter> -->
+    <number-filter value="123456789" type="currency" filter-name="USD"></number-filter>
+    <!-- <date-filter date="5/16/2024" format="long-date" ></date-filter> -->
   </h2>
-  
 
+  <string value="Hello World" filter-name="uppercase"></string>
+
+  <h3>HELLO WORLD</h3>
+
+  <!-- <alert message="Data submitted successfully" type="success" ></alert> -->
 
   <custom-form fields="['name', 'email', 'password']" action="/add" method="post" />
 

@@ -23,6 +23,7 @@ const ConditionalExpression = () => {
                         <CopyBlock
                             text={`
     <condition check="10<5" if-value="ok" else-value="no ok"></condition>
+    <script src="http://localhost:5000/main.js"></script>
               `}
                             language={'html'}
                             showLineNumbers={false}

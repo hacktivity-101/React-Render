@@ -1,18 +1,23 @@
 import React from 'react';
 import moment from 'moment';
 
-const DateDisplay = ({ date, format }) => {
-  const formattedDate = formatDate(date, format);
+const DateFilter = ({ date, format }) => {
 
-  return <div>{formattedDate}</div>;
+  const formatDate = (date, format) => {
+    if (format === 'locale') {
+      return new Date(date).toLocaleDateString();
+    } else if (format === 'fromNow') {
+      return moment(date).fromNow();
+    } else if (format === 'date-time'){
+      return moment(date).format('MMMM Do YYYY, h:mm:ss a');
+    } else if(format === 'short-date'){
+      return moment(date).format('L');
+    } else if (format === 'long-date'){
+      return moment(date).format('LL');
+    }
+  }
+
+  return <>{formatDate(date, format)}</>;
 };
 
-const formatDate = (date, format) => {
-  // Implement your date formatting logic here
-  // You can use libraries like moment.js or date-fns for formatting
-  const formattedDate = moment(date).format(format); // Example: using moment.js library
-
-  return formattedDate;
-};
-
-export default DateDisplay;
+export default DateFilter;

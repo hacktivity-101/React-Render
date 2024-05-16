@@ -26,26 +26,6 @@ const menuItems = {
             link: '/docs/elements/number-filter'
         },
         {
-            label: 'Custom Attributes',
-            link: '/docs/elements/custom-attributes'
-        },
-        {
-            label: 'Data Context',
-            link: '/docs/elements/data-context'
-        },
-        {
-            label: 'Evaluate Expression',
-            link: '/docs/elements/evaluate-expression'
-        },
-        {
-            label: 'Inheritance',
-            link: '/docs/elements/inheritance'
-        },
-        {
-            label: 'Layout',
-            link: '/docs/elements/layout-expression'
-        },
-        {
             label: 'Loop',
             link: '/docs/elements/loops'
         },
@@ -69,6 +49,27 @@ const menuItems = {
             label: 'String',
             link: '/docs/elements/string'
         },
+        // {
+        //     label: 'Custom Attributes',
+        //     link: '/docs/elements/custom-attributes'
+        // },
+        {
+            label: 'Data Context',
+            link: '/docs/elements/data-context'
+        },
+        {
+            label: 'Evaluate Expression',
+            link: '/docs/elements/evaluate-expression'
+        },
+        {
+            label: 'Inheritance',
+            link: '/docs/elements/inheritance'
+        },
+        {
+            label: 'Layout',
+            link: '/docs/elements/layout-expression'
+        },
+        
     ],
     'Support': [
         {
