@@ -29,7 +29,7 @@ const Alert = () => {
                         />
                     </div>
                     <h2 className='mt-3 text-xl font-bold'>Output:</h2>
-                    <img className='w-full' src="/images/condition1.png" alt="" />
+                    <img className='w-full' src="/images/alert1.png" alt="" />
                 </section>
             </div>
         </div>

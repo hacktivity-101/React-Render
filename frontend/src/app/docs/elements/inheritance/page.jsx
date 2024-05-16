@@ -29,8 +29,6 @@ const EvaluateExpression = () => {
                             wrapLines
                         />
                     </div>
-                    <h2 className='mt-3 text-xl font-bold'>Output:</h2>
-                    <img className='w-full' src="/images/number-filter1.png" alt="" />
                 </section>
             </div>
         </div>
